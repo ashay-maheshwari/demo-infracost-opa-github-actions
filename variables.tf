@@ -6,7 +6,7 @@ variable amiID {
 variable instanceType {
     type = string
 #   default = "t2.micro"
-    default = "t2.xlarge"
+    default = "m5.4xlarge"
 }
 
 variable instanceCount {
