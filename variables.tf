@@ -7,7 +7,7 @@ variable instanceType {
     type = string
 #   default = "t2.micro"
 #    default = "t2.xlarge"
-    default = "m5.24xlarge"
+    default = "t2.2xlarge"
    
 }
 
