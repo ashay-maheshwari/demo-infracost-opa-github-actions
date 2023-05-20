@@ -1,6 +1,6 @@
 package example 
 
-allow[out] {
+deny[out] {
 
 	maxDiff = 100.0
     msg := sprintf(
