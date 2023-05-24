@@ -10,6 +10,13 @@ variable instanceType {
    
 }
 
+variable dbInstanceType {
+    type = string
+    default =  "db.m4.large" 
+#    default = "t2.xlarge"
+   
+}
+
 variable instanceCount {
     type = number
     default = 1 
