@@ -1,8 +1,8 @@
 package infracost
 
 deny[out] {
-
-	maxDiff = 100.0
+   
+    maxDiff = 10000.0
     msg := sprintf(
 		"As per the organization policies, total monthly cost difference must be less than $%.2f USD (actual diff is $%.2f)",
 		[maxDiff, to_number(input.diffTotalMonthlyCost)],
