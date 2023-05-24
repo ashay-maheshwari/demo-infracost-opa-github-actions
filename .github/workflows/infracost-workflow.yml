@@ -59,14 +59,3 @@ jobs:
                                      --policy-path cost-policy-1.rego
                                     
     
-      - name: Start a manual approval workflow
-        uses: trstringer/manual-approval@v1
-        with:
-          secret: ${{ github.TOKEN }}
-          approvers: ashay-maheshwari
-          minimum-approvals: 1
-          issue-title: "Deploying v1.3.5 to prod from staging"
-          issue-body: "Please approve or deny the deployment of version v1.3.5."
-          exclude-workflow-initiator-as-approver: false
-          additional-approved-words: ''
-          additional-denied-words: ''                                  
